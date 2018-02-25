@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Sublime Project</title>
+   <link rel="stylesheet" type="text/css" href="css/normalize.css">
+   <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+</head>
+<body>
+
+	
+
+<!-- header -->
+<div class="section hero">
+	<div class="container">
+   <h1>Monk's Cafe</h1>
+   <h2 class="text--h4">"The Coffee Shop"</h2>
+</div>
+</div>
+
+
+<!-- reservations -->
+<div class="section reservations">
+	<div class="container">
+	<h3>Reservations</h3>
+
+<div class="row">
+<div class="six columns">
+	<h4>Make a Reservation</h4>
+	<form>
+  <div class="row">
+    <div class="six columns">
+      <label for="nameInput">Your name</label>
+      <input class="u-full-width" type="text" placeholder="please enter your name" id="nameInput">
+    </div>
+    <div class="six columns">
+      <label for="exampleRecipientInput">Day</label>
+      <select class="u-full-width" id="exampleRecipientInput">
+        <option value="Option 1">Sunday</option>
+        <option value="Option 2">Monday</option>
+        <option value="Option 3">Tuesday</option>
+        <option value="Option 3">Wednesday</option>
+        <option value="Option 3">Thursday</option>
+        <option value="Option 3">Friday</option>
+        <option value="Option 3">Saturday</option>
+      </select>
+    </div>
+  </div>
+  <input class="button-primary" type="submit" value="Submit">
+</form>
+</div>
+<div class="six columns">
+	<h4>Existing Reservations</h4>
+	<table class="u-full-width">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Day</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[data]</td>
+      <td>[data]</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+<!-- dine -->
+<div class="section dine">
+	<div class="container">
+	<h3>Come Dine with Us</h3>
+</div>
+<div id="map"></div>
+</div>
+
+<!-- map 
+<div class="section map">
+	<div class="u-full-width">
+	<div id="map">&nbsp;</div>
+</div>
+</div>-->
+
+<!-- reviews -->
+<div class="section reviews">
+	<div class="container">
+	<h3>Customer Reviews</h3>
+	
+	<div class="row">
+<div class="six columns">
+	<img class="u-max-full-width" src="http://circuits-assets.generalassemb.ly/prod/asset/5474/jerry.jpg">
+</div>
+<div class="six columns">
+	<p>"Big lettuce, big carrots, tomatoes like volleyballs."
+— Jerry Seinfeld, on The BIG Salad</p>
+</div>
+</div>
+</div>
+</div>
+
+
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/main.js"></script>
+<!-- Google Maps -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5epede_Eq24ILq4FtQFpLFUev01E629A&callback=initMap"
+  type="text/javascript"></script>
+</body>
+</html>
